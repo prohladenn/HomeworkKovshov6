@@ -13,6 +13,7 @@ namespace WindowsFormsCalculator_6
         public Form1()
         {
             InitializeComponent();
+            this.KeyPress += new KeyPressEventHandler(form_KeyDown);
         }
 
         /// <summary>

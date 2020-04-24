@@ -277,6 +277,17 @@ namespace WindowsFormsCalculator_6
             b7.Click += new EventHandler(num_Click);
             b8.Click += new EventHandler(num_Click);
             b9.Click += new EventHandler(num_Click);
+            plus.Click += new EventHandler(plus_Click);
+            minus.Click += new EventHandler(minus_Click);
+            div.Click += new EventHandler(div_Click);
+            mul.Click += new EventHandler(mul_Click);
+            res.Click += new EventHandler(res_Click);
+            point.Click += new EventHandler(point_Click);
+            ce.Click += new EventHandler(ce_Click);
+            plus.Click += new EventHandler(oper_Click);
+            minus.Click += new EventHandler(oper_Click);
+            mul.Click += new EventHandler(oper_Click);
+            div.Click += new EventHandler(oper_Click);
         }
     }
 }
